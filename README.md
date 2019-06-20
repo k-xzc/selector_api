@@ -21,7 +21,7 @@ I break the monolith service into 3 micro services
   
   git clone https://github.com/kantsuw/selector_api </br>
   cd selector_api </br>
-  export cc_api_host=..... </br>  
+  export cc_api_host=..... </br>
   export cc_api_port=..... </br>
   npm install </br>
   node app.js/index.js
