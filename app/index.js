@@ -7,7 +7,7 @@ var cron = require('node-cron');
 var secondary_cur = ["BTC","ETH","XRP","BSV","BCH","OMG"]
 
 cron.schedule('*/10 * * * * *', function(){
-   var json = JSON.parse(secondary_cur)
+   var json = JSON.stringify(secondary_cur)
    console.log(json)
    postToCC(json)
    console.log("done")
