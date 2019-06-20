@@ -19,16 +19,14 @@ I break the monolith service into 3 micro services
 
 # How to run 
   
-  Checkout code from GitHub
-  
-  export cc_api_host=.....
-  
-  export cc_api_port=.....
-  
-  npm install
-  
+  git clone https://github.com/kantsuw/selector_api </br>
+  cd selector_api </br>
+  export cc_api_host=..... </br>  
+  export cc_api_port=..... </br>
+  npm install </br>
   node app.js/index.js
 
 # Running with docker 
 
-docker run -d -e cc_api_host=kantz.space -e cc_api_port=1234 xezor/selector_api
+  docker run -d -e cc_api_host=kantz.space \ </br>
+  -e cc_api_port=1234 xezor/selector_api
